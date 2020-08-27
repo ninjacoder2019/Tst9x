@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeChocolate"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="312dp"
+        android:layout_height="323dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pan_removebg_preview" />
+
+    <ImageButton
+        android:id="@+id/imageViewChoco"
+        android:layout_width="185dp"
+        android:layout_height="137dp"
+        android:alpha="1.0"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#80FFFFFF"
+        android:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/chocola"
+        tools:targetApi="lollipop" />
+
+    <ImageView
+        android:id="@+id/imageViewBottle"
+        android:layout_width="100dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.699"
+        app:srcCompat="@drawable/bluebottle" />
+
+    <ImageView
+        android:id="@+id/imageViewgumballtray"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/gumballtray" />
+
+    <ImageView
+        android:id="@+id/imageViewGum1"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewgumballtray"
+        app:layout_constraintStart_toStartOf="@+id/imageViewgumballtray"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blueball" />
+
+    <ImageView
+        android:id="@+id/imageViewGum2"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewgumballtray"
+        app:layout_constraintStart_toEndOf="@+id/imageViewGum1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blueball" />
+
+    <ImageView
+        android:id="@+id/imageViewGum3"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewgumballtray"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewgumballtray"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blueball" />
+
+    <ImageView
+        android:id="@+id/imageViewGum4"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewgumballtray"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewGum3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewgumballtray"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blueball" />
+
+    <ImageView
+        android:id="@+id/imageViewSugar"
+        android:layout_width="104dp"
+        android:layout_height="79dp"
+        android:alpha="0.4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sugar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

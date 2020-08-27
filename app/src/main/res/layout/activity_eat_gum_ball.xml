@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EatGumBall"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageViewGUmHome"
+        android:layout_width="71dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewgumballmachine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/candyhome" />
+
+    <ImageView
+        android:id="@+id/imageViewgumballmachine"
+        android:layout_width="232dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gumballmachine" />
+
+    <ImageView
+        android:id="@+id/imageViewCoin"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coin" />
+
+    <ImageView
+        android:id="@+id/imageViewGumBall"
+        android:layout_width="39dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewgumballmachine"
+        app:layout_constraintVertical_bias="0.339"
+        app:srcCompat="@drawable/blueball" />
+</androidx.constraintlayout.widget.ConstraintLayout>
